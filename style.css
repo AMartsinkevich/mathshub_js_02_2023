@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+}
+
+header {
+    background-color: lightgrey;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+main {
+    margin-top: 50px;
+    text-align: center;
+}
+
+h1 {
+    margin: 80px auto;
+}
+
+h2 {
+    margin: 30px auto;
+}
+
+p {margin: 10px auto;}
+
+img {
+    margin-top: -100px;
+}
+
+hr {
+    margin: 10px auto;
+}
+
+nav {
+    border: 1px dotted black;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    width: inherit;
+}
+
+nav > a {
+    text-decoration: none;
+    color: black;
+    padding: 0 30px;
+    font-size: 20px;;
+}
+
+nav > a:hover {
+    color: lightcoral;
+}
+
+.my_game {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.about_us-description {
+    display: flex;
+    flex-direction: column;
+}
+
+.about_us-description * {
+    padding: 5px;
+}
+
+.choosed_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.choosed_block-container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    max-width: 650px;
+}
+
+.choosed_block-container > div {
+    width: 150px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+.choosed_element {
+    border: 3px solid black;
+}
+
+.posts_block {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.posts_block h2 {
+    text-align: center;
+}
+
+.posts_block-container > * {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: lightgray;
+}
